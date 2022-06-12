@@ -37,16 +37,20 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 * Machine Learning Model 2:
   * Description of Model 2 Accuracy, Precision, and Recall scores.
-  
+
 *ANSWER: logistic regression model (fit with oversampled data) predicted '0' almost perfecly, both precison and Recall close to 100%. It improved prediction for '1' , similar precison at 0.84 (vs 0.85) but higher Recall at 0.99 (vs. 0.95)
 
 
 ## Summary
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
+
 * Which one seems to perform best? How do you know it performs best?
-logistic regression model (fit with oversampled data) seems to perform best overall, therefore we recommend model of  logistic regression model (fit with oversampled data)
+
+*ANSWER: logistic regression model (fit with oversampled data) seems to perform best overall, therefore we recommend model of  logistic regression model (fit with oversampled data)
+
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+
 *ANSWER: Yes, it seems so, model output would depend on what we are trying to solve, for example whether its more important for 1 or 0 to be correctly predicted
 
 If you do not recommend any of the models, please justify your reasoning.
